@@ -4,6 +4,18 @@ Here are the release notes for the Experience Platform Mobile SDKs and Adobe Pla
 
 **Important:** Adobe Places is currently in Beta. On the Places GA date, the Places release notes content will be removed from this release notes and the location to the Places release notes will be provided.
 
+## October 28, 2019
+
+The following updates were made in this release:
+
+**iOS Analytics 2.2.1**
+
+* Analytics response content events now contain two new fields: `hitHost` and `hitUrl`. These fields contain the host and url of the of the hit responsible for dispatching the response event.
+
+**Android Analytics 1.2.2**
+
+* Analytics response content events now contain two new fields: `hitHost` and `hitUrl`. These fields contain the host and url of the of the hit responsible for dispatching the response event.
+
 ## October 25, 2019
 
 The following updates were made in this release:
@@ -892,4 +904,3 @@ The following updates were made to the Mobile Core extension:
 Adobe Experience Platform SDKs are live!
 
 * Version 1.0.0 of the Experience Platform SDKs were released for the Mobile Core, Analytics, Audience Manager, and Adobe Target extensions.
-

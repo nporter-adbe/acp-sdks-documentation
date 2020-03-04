@@ -38,7 +38,7 @@ Type the tracking domain to which all Analytics requests should be made.
 Do you need offline tracking? For more information, see [Offline tracking](https://docs.adobe.com/content/help/en/analytics/technotes/timestamps-optional.html).
 {% endhint %}
 
-When the **Offline Enabled** checkbox is selected, client-side timestamp data is captured and sent directly with the device data using client-side timestamp variables. To use offline tracking, ensure that your report suite is timestamp enabled.
+When the **Offline Enabled** checkbox is selected, a client-side timestamp is captured and sent directly with the analytics data using client-side timestamp variables. To use offline tracking, ensure that your report suite is timestamp enabled.
 When the **Offline Enabled** checkbox is *not* selected, the SDK sets the timestamp on non-timestamped data in a report suite when the data hits the collection servers.
 
 {% hint style="danger" %}
